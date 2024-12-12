@@ -1,0 +1,42 @@
+
+body {
+   color: #be4e0d;
+   margin: 0;
+   padding: 3em;
+   background: linear-gradient(135deg, #ffffff, #f5f5f5); /* Degradado sutil */
+   background-size: 400% 400%; /* Movimiento para animación */
+   animation: subtleGradient 15s ease infinite; /* Animación suave */
+ }
+ 
+ 
+ 
+
+
+
+/* Estilo del título */
+nav .header h1 {
+  margin: 0 auto; /* Asegura que quede centrado */
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  flex-grow: 1; /* Expande para ocupar espacio disponible */
+}
+
+/* Contenedor para botones de navegación */
+nav .header .nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Botón estilizado */
+.btn-login {
+  background-color: #6c0f0f; /* Color de fondo del botón */
+  color: #fff;
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

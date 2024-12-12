@@ -1,0 +1,25 @@
+
+  
+  .cv-form input,
+  .cv-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cv-form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cv-form button:hover {
+    background: #0056b3;
+  }
+  
